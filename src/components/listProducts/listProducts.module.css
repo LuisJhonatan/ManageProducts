@@ -1,0 +1,23 @@
+.containerProducts{
+    width: 75%;
+    height: calc(100vh - 5rem);
+    overflow-y: scroll;
+}
+.containerGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.productTitle {
+    width: 100%;
+    grid-column: span 2; /* Ocupa dos columnas */
+    text-align: center; /* Ajusta el texto según sea necesario */
+    font-weight: bold;
+    border-top: thin solid #2a6f97;
+    border-left: thin solid #2a6f97;
+    border-right: thin solid #2a6f97;
+    color: #FFFFFF;
+    margin: 0;
+  }
+.containerProducts::-webkit-scrollbar {
+    width: 0; /* Oculta la barra de scroll en WebKit (Chrome, Safari) */
+}

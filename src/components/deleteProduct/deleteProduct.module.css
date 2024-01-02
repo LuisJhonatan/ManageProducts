@@ -1,0 +1,73 @@
+.deleteProduct{
+    width: 75%;
+}
+.deleteProduct h3{
+    text-align: center;
+}
+.formulario{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    margin: auto;
+}
+.formulario input{
+    height: 2rem;
+    border-radius: .5rem;
+    margin: .5rem;
+    border: none;
+}
+.formulario input[type="submit"]{
+    width: 50%;
+    height: 2rem;
+    background-color: #0077b6;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+}
+.formulario input[type="submit"]:hover{
+    border: thin solid #0077b6;
+    color: #0077b6;
+    background-color: #FFFFFF;
+}
+.containerProduct{
+    width: 50%;
+    height: auto;
+    border: thin solid #0077b6;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.containerProduct img{
+    width: 90%;
+    height: auto;
+    display: inline-block;
+    margin: auto;
+}
+.containerProduct h3{
+    text-align: center;
+    color: #FFFFFF;
+    margin: .5rem;
+}
+.containerProduct p{
+    color: #FFFFFF;
+    margin: 0;
+}
+.containerInfo{
+    background-color: #0077b6;
+}
+.delete{
+    width: 50%;
+    height: 1.5rem;
+    background-color: red;
+    border: none;
+    border-radius: .25rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: .5rem auto;
+}
+.delete:hover{
+    background-color: #FFFFFF;
+    color: red;
+}

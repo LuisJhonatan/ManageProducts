@@ -1,0 +1,45 @@
+.menuUser{
+    width: 25%;
+    height: calc(100vh - 5rem);
+    background-image: linear-gradient(45deg, rgba(2, 62, 138,.40),rgba(2, 62, 138,.40),rgba(2, 62, 138,.40));
+    color: #FFFFFF;
+}
+.users{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.users p{
+    width: 95%;
+    border-bottom: thin solid #000000;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products p{
+    width: 95%;
+    border-bottom: thin solid #000000;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.users a,
+.products a{
+    width: 100%;
+    height: 2.5rem;
+    margin: .5rem;
+    padding: .5rem;
+    color: #FFFFFF;
+}
+
+.users a:hover,
+.products a:hover{
+    background-color: #FFFFFF;
+    color: #0f7d8f;
+    border-radius: 1rem;
+}

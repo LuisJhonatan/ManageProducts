@@ -1,0 +1,19 @@
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.formLogin input{
+    width: 40vw;
+    height: 2rem;
+    background-color: #C5FFF8;
+    border: thin solid #5FBDFF;
+    border-radius: .5rem;
+}
+
+.formLogin input[type="submit"]{
+    background-color: #5FBDFF;
+    border: thin solid #5FBDFF;
+    color: #FFFFFF;
+    cursor: pointer;
+}

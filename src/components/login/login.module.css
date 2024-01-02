@@ -1,0 +1,14 @@
+.contentLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 2rem;
+    background-image: linear-gradient(#7B66FF, #5FBDFF, #96EFFF, #C5FFF8);
+    border-radius: .5rem;
+}
+.contentLogin svg{
+    fill: #FFFFFF;
+    margin: .5rem;
+}
