@@ -1,6 +1,10 @@
 .containerProduct{
     width: 75%;
     height: calc(100vh - 5rem);
+    overflow-y: scroll
+}
+.containerProduct::-webkit-scrollbar {
+    width: 0; /* Oculta la barra de scroll en WebKit (Chrome, Safari) */
 }
 .containerProduct h3{
     text-align: center;
